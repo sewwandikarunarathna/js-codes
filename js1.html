@@ -1,0 +1,35 @@
+<html>
+<head>
+ <title> js 01</title>
+  <script type="text/javascript">
+    function total(a,b,c){
+        var x=a+b+c
+	return x
+	}
+    function avg(d,e,f){
+       return (d+e+f)/3
+        }
+   <!-- function minimum(){
+	document.getElementById("mi").innerHTML=Math.min(p,q,r)
+	} -->
+	
+  </script>
+</head>
+<body>
+  <script>
+    var n1=prompt("price of first equipment")
+    var n2=prompt("price of second equipment")
+    var n3=prompt("price of third equipment")
+   
+      var p=parseInt(n1)
+      var q=parseInt(n2)
+      var r=parseInt(n3)
+	
+	document.write("total price of equipments is "+total(p,q,r)+"<br>")
+	document.write("Average price of equipments is "+avg(p,q,r)+"<br>")
+	 document.write("Output : " + Math.min(p,q,r)); 
+	
+  </script>
+	<!-- <input type="button" onclick="minimum()" id="mi" value="Minimum price"/> -->
+</body>
+</html>
